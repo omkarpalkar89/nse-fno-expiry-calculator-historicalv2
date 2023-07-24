@@ -4,16 +4,8 @@ This package gives you an easy methods to calculate near and far weekly and mont
 
 ## Installation
 
-    pip install nse_fno_expiry_calculator
+    pip install nse_fno_expiry_calculator_historical
     // if you are using pipenv, then execute below
-    pipenv install nse_fno_expiry_calculator
+    pipenv install nse_fno_expiry_calculator_historical
 
-## Usage
 
-There are 4 methods which reurns near and far weekly and monthly expiry dates
-
-    # print('today is '+str(pendulum.now().date()))
-    # print('nearest weekly exp is '+str(getNearestWeeklyExpiryDate()))
-    # print('next weekly exp is '+str(getNextWeeklyExpiryDate()))
-    # print('nearest monthly exp is '+str(getNearestMonthlyExpiryDate()))
-    # print('next month exp is '+str(getNextMonthlyExpiryDate()))

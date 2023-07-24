@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-name = 'nse_fno_expiry_calculator',
+name = 'nse_fno_expiry_calculator_historical',
 packages=setuptools.find_packages(),
 version = '1.0.1',
 include_package_data=True,
@@ -12,7 +12,7 @@ description = 'Util to calculate expiry date for FNO instruments which also cons
 long_description=long_description,
 long_description_content_type="text/markdown",  author = 'Rakesh Ravikumar Kashyap',
 author_email = 'rakesh1988@gmail.com',
-url = 'https://github.com/rakesh1988/nse-fno-expiry-calculator.git',
+url = 'https://github.com/omkarpalkar89/nse-fno-expiry-calculator-historicalv2.git',
 install_requires=['pendulum'],
 keywords = ['nse', 'expiry', 'nse fno', 'nse holiday', 'trading', 'stock markets'],
 python_requires='>=3.6',
